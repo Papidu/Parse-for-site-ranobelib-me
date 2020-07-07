@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 # 3. сохраняем в тхт файл
 
 def get_html():
-    url = 'https://ranobelib.me/8-keullaeseu-mabeobsaui-hoegwi'#'https://ranobehub.org/ranobe/367-revolution-of-the-8th-class-mage#tab-contents'#'https://ранобэ.рф/revolyutsiya-maga-vosmogo-klassa'
+    url = 'https://ranobelib.me/8-keullaeseu-mabeobsaui-hoegwi'
     r = requests.get(url)
     return r.text
 
